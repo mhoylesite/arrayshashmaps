@@ -1,0 +1,16 @@
+import java.util.HashMap;
+import java.util.Scanner; 
+
+
+public class HashMapHw {
+	 public static void main(String[] args) {
+		 
+		 Scanner userInput = new Scanner(System.in);
+         System.out.println("What model of car are you looking for?");
+		    
+		    HashMap<String, String> cars = new HashMap<String, String>();
+
+		    cars.put("Honda", "Civic");
+		    System.out.println(cars.get("Honda")); 
+		  }
+		}
